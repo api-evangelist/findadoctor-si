@@ -64,5 +64,138 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-findadoctor-si is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://findadoctor.si/
+FindADoctor.si provides doctor data for AI agents, covering the United States, New Zealand, and France. It serves official records and facts from doctors' own hospital pages via an MCP endpoint and a standard HTTP JSON API. The service offers read‑only search over physicians, delivering sourced evidence, NPI registry information, health‑system waiting lists, and national procedure statistics. Data is regularly updated and includes procedural volume data. The platform is free during testing.
+
+**Areas:** Company · Healthcare · Data · AI · Doctor · International
+
+## findadoctor-si on APIs.io
+
+Everything profiled for findadoctor-si is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/findadoctor-si/](https://apis.io/providers/findadoctor-si/)** — or go straight to one of the APIs or properties below.
+
+### APIs (9)
+
+- [findadoctor-si About API](https://apis.io/apis/findadoctor-si/findadoctor-si-about-api/) — The About API from findadoctor-si — 1 operation(s) for about.
+- [findadoctor-si Doctors API](https://apis.io/apis/findadoctor-si/findadoctor-si-doctors-api/) — The Doctors API from findadoctor-si — 2 operation(s) for doctors.
+- [findadoctor-si Gp Practices API](https://apis.io/apis/findadoctor-si/findadoctor-si-gp-practices-api/) — The Gp Practices API from findadoctor-si — 1 operation(s) for gp practices.
+- [findadoctor-si Procedure Volumes API](https://apis.io/apis/findadoctor-si/findadoctor-si-procedure-volumes-api/) — The Procedure Volumes API from findadoctor-si — 1 operation(s) for procedure volumes.
+- [findadoctor-si Procedures API](https://apis.io/apis/findadoctor-si/findadoctor-si-procedures-api/) — The Procedures API from findadoctor-si — 1 operation(s) for procedures.
+- [findadoctor-si Search API](https://apis.io/apis/findadoctor-si/findadoctor-si-search-api/) — The Search API from findadoctor-si — 1 operation(s) for search.
+- [findadoctor-si Specialties API](https://apis.io/apis/findadoctor-si/findadoctor-si-specialties-api/) — The Specialties API from findadoctor-si — 1 operation(s) for specialties.
+- [findadoctor-si Terms API](https://apis.io/apis/findadoctor-si/findadoctor-si-terms-api/) — The Terms API from findadoctor-si — 1 operation(s) for terms.
+- [findadoctor-si Waitlist API](https://apis.io/apis/findadoctor-si/findadoctor-si-waitlist-api/) — The Waitlist API from findadoctor-si — 1 operation(s) for waitlist.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Findadoctor Si Agentic Access](https://apis.io/agentic-access/findadoctor-si/findadoctor-si-agentic-access/)
+
+#### JSON Schema (7)
+
+The data models the API reads and writes.
+
+- [Doctor](https://apis.io/schemas/findadoctor-si/findadoctor-si-doctor/)
+- [DoctorBatch](https://apis.io/schemas/findadoctor-si/findadoctor-si-doctor-batch/)
+- [GpResult](https://apis.io/schemas/findadoctor-si/findadoctor-si-gp-result/)
+- [HospitalVolumes](https://apis.io/schemas/findadoctor-si/findadoctor-si-hospital-volumes/)
+- [Provider](https://apis.io/schemas/findadoctor-si/findadoctor-si-provider/)
+- [SearchResult](https://apis.io/schemas/findadoctor-si/findadoctor-si-search-result/)
+- [WaitlistRow](https://apis.io/schemas/findadoctor-si/findadoctor-si-waitlist-row/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Findadoctor Si Context](https://apis.io/jsonld/findadoctor-si/findadoctor-si-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [findadoctor-si API Rules](https://apis.io/rules/findadoctor-si/findadoctor-si-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Findadoctor Si Authentication](https://apis.io/security/findadoctor-si/findadoctor-si-authentication/)
+- [Findadoctor Si Domain Security](https://apis.io/security/findadoctor-si/findadoctor-si-domain-security/)
+- [Findadoctor Si Vulnerability Disclosure](https://apis.io/security/findadoctor-si/findadoctor-si-vulnerability-disclosure/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Findadoctor Si Rate Limits](https://apis.io/rate-limits/findadoctor-si/findadoctor-si-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://findadoctor.si/)
+- [Getting started](https://findadoctor.si/us/docs/index)
+- [API reference](https://api.findadoctor.si/openapi.json)
+- [Support](https://findadoctor.si/support/)
+- [Changelog](https://findadoctor.si/us/changelog/)
+- [Security](https://findadoctor.si/support/)
+- [Terms of service](https://findadoctor.si/terms/)
+- [Privacy policy](https://findadoctor.si/privacy/)
+
+## API Evangelist rating
+
+**Kin Score 51.2** — developing · rubric 0.25.0 · scored 2026-10-29
+
+| Facet | Score |
+|---|---|
+| Discoverability | 70.0 |
+| Contract quality | 59.0 |
+| Contract governance | 70.9 |
+| Operational transparency | 54.7 |
+| Developer ergonomics | 39.8 |
+| Access clarity | 21.1 |
+
+**Agent readiness 61.1** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | verified |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | partial |
+| Operation Distinctiveness | distinct |
+
+**Regulatory alignment 22.8** — Health
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/findadoctor-si/](https://apis.io/providers/findadoctor-si/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for findadoctor-si: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/findadoctor-si/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
